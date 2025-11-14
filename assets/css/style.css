@@ -1,0 +1,169 @@
+/* Configurações básicas e fontes */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F7F9; /* Fundo cinza muito claro (clean) */
+    color: #333333; /* Cor de texto padrão */
+    line-height: 1.6;
+}
+
+/* --- Cabeçalho e Navegação --- */
+.header-container {
+    background-color: #0077B6; /* Azul Escuro Institucional */
+    padding: 40px 20px 20px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.header-icon {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header-container h1 {
+    font-size: 2.2em;
+    color: #FFFFFF; /* Branco */
+    margin: 0;
+    font-weight: 700;
+}
+
+.header-container h2 {
+    font-size: 1.3em;
+    color: #C0DEED; /* Azul claro */
+    margin: 5px 0 20px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.nav-button {
+    background-color: #00B6AA; /* Ciano/Verde Água para botões */
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+    background-color: #008D80;
+}
+
+/* --- Conteúdo Principal (Cards) --- */
+.content-wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    min-height: 40vh;
+}
+
+.card-section {
+    background-color: #FFFFFF; /* Fundo branco para os cards */
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra mais destacada */
+    text-align: center;
+}
+
+.primary-card h3 {
+    color: #0077B6; /* Azul escuro para o título principal */
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.secondary-card {
+    background-color: #EBF3F8; /* Fundo azul muito claro para o segundo card */
+}
+
+.secondary-card h4 {
+    color: #00B6AA; /* Ciano para o subtítulo */
+    font-size: 1.3em;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.project-info {
+    font-style: italic;
+    color: #666;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Estilos específicos para a página de entrevista */
+.interview-item {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #0077B6;
+    background-color: #F8F8F8;
+    border-radius: 0 5px 5px 0;
+}
+
+.interview-item strong {
+    color: #0077B6;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+/* --- Rodapé --- */
+.footer-container {
+    background-color: #3B3B3B; /* Cinza escuro */
+    color: #F4F7F9;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+.footer-icon {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.social-link {
+    margin-top: 5px;
+}
+
+.social-link a {
+    color: #F4F7F9;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-link a:hover {
+    color: #00B6AA;
+}
+
+/*Professor*/
+
+header h1, h2 {
+    text-align: center;
+    
+}
+
+.nav-professor {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+/*Entrevista*/
