@@ -167,3 +167,14 @@ header h1, h2 {
 }
 
 /*Entrevista*/
+header h1, h2 {
+    text-align: center;
+    
+}
+
+.nav-professor {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
